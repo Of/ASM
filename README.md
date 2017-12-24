@@ -1,5 +1,7 @@
 # ASM
 
+Recommended Server OS: Ubuntu 16.04 LTS
+
 The file 'auto.py' is a alpha development piece of python.
 
 This file allows you to automatically secure your server. 
