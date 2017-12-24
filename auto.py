@@ -68,7 +68,7 @@ def secure():
     print(color.red, "*" * 80, color.reset)
     print(color.yellow, color.bold, centerr("Secure This Server", 80))
     print(color.green, color.bold, "===> Adding a login banner (Legal Reasons)", color.reset)
-    os.system("wget --quiet -O /root/.motd.banner https://gist.githubusercontent.com/Of/8d3e9b9de0a2d562522571b20ba85aa3/raw/67ec6774e609b9694e70a5248b6c06b7e0c91b45/motd.banner")
+    os.system("wget --quiet -O /root/.motd.banner https://gist.githubusercontent.com/Of/8d3e9b9de0a2d562522571b20ba85aa3/raw/f2d19c0de270f839d74d3defa729fb506a68186d/motd.banner")
     os.system("echo 'Banner /root/.motd.banner' >> /etc/ssh/sshd_config")
     #################################################################################
     print(color.green, color.bold, "===> Removing un-needed packages", color.reset)
